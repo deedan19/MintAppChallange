@@ -7,7 +7,7 @@ https://user-images.githubusercontent.com/35179563/131887715-c80fc399-ee62-4ae2-
 
 ## Steps to run this app
 #### Note: Have Xcode installed
-1. CLone the repo
+1. Clone the repo
 2. Open the .xcworspace file
 3. For better experience use iPhone 11 simulator.
 4. Run the app.
