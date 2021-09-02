@@ -1,0 +1,6 @@
+framework module Pods_MintApp {
+  umbrella header "Pods-MintApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

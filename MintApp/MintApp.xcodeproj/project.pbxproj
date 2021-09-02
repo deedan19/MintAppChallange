@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B7775D9405E9375AC2C3961 /* Pods_MintApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E21EF83453F262B6C1118D3 /* Pods_MintApp.framework */; };
+		B41FBE3926E039E800735550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FBE3826E039E800735550 /* AppDelegate.swift */; };
+		B41FBE3B26E039E800735550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FBE3A26E039E800735550 /* SceneDelegate.swift */; };
+		B41FBE3D26E039E800735550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FBE3C26E039E800735550 /* ViewController.swift */; };
+		B41FBE4026E039E800735550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41FBE3E26E039E800735550 /* Main.storyboard */; };
+		B41FBE4226E039E900735550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41FBE4126E039E900735550 /* Assets.xcassets */; };
+		B41FBE4526E039E900735550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41FBE4326E039E900735550 /* LaunchScreen.storyboard */; };
+		B41FBE4D26E0C3AF00735550 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FBE4C26E0C3AF00735550 /* Cell.swift */; };
+		B41FBE4F26E0C5D400735550 /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FBE4E26E0C5D400735550 /* CellModel.swift */; };
+		B41FBE5126E0C66600735550 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FBE5026E0C66600735550 /* HomeViewController.swift */; };
+		B41FBE5526E0DBAC00735550 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FBE5426E0DBAC00735550 /* CardView.swift */; };
+		B41FBE5926E0ED3A00735550 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FBE5826E0ED3A00735550 /* TableViewModel.swift */; };
+		B41FBE5B26E0ED9900735550 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FBE5A26E0ED9900735550 /* TableViewCell.swift */; };
+		B41FBE5E26E0EDE100735550 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FBE5D26E0EDE100735550 /* SettingsViewController.swift */; };
+		B41FBE6026E0FE9900735550 /* SystemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FBE5F26E0FE9900735550 /* SystemController.swift */; };
+		B41FBE6226E1153A00735550 /* LegalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FBE6126E1153A00735550 /* LegalsViewController.swift */; };
+		B41FBE6426E11DEE00735550 /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FBE6326E11DEE00735550 /* NSAttributedString.swift */; };
+		B41FBE6626E12B8A00735550 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FBE6526E12B8A00735550 /* TabbarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19161B6AAF409F883FED6737 /* Pods-MintApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintApp.debug.xcconfig"; path = "Target Support Files/Pods-MintApp/Pods-MintApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3E21EF83453F262B6C1118D3 /* Pods_MintApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MintApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8DCAC6E581E1B0A87F70B0 /* Pods-MintApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintApp.release.xcconfig"; path = "Target Support Files/Pods-MintApp/Pods-MintApp.release.xcconfig"; sourceTree = "<group>"; };
+		B41FBE3526E039E800735550 /* MintApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MintApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41FBE3826E039E800735550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B41FBE3A26E039E800735550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B41FBE3C26E039E800735550 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B41FBE3F26E039E800735550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B41FBE4126E039E900735550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B41FBE4426E039E900735550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B41FBE4626E039E900735550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B41FBE4C26E0C3AF00735550 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		B41FBE4E26E0C5D400735550 /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
+		B41FBE5026E0C66600735550 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B41FBE5426E0DBAC00735550 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B41FBE5826E0ED3A00735550 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		B41FBE5A26E0ED9900735550 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B41FBE5D26E0EDE100735550 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B41FBE5F26E0FE9900735550 /* SystemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemController.swift; sourceTree = "<group>"; };
+		B41FBE6126E1153A00735550 /* LegalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalsViewController.swift; sourceTree = "<group>"; };
+		B41FBE6326E11DEE00735550 /* NSAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
+		B41FBE6526E12B8A00735550 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B41FBE3226E039E800735550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7775D9405E9375AC2C3961 /* Pods_MintApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8E62DD97042E39E44AE4F87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19161B6AAF409F883FED6737 /* Pods-MintApp.debug.xcconfig */,
+				4A8DCAC6E581E1B0A87F70B0 /* Pods-MintApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B41FBE2C26E039E800735550 = {
+			isa = PBXGroup;
+			children = (
+				B41FBE3726E039E800735550 /* MintApp */,
+				B41FBE3626E039E800735550 /* Products */,
+				A8E62DD97042E39E44AE4F87 /* Pods */,
+				C4958246AA9912FA9497F5EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B41FBE3626E039E800735550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B41FBE3526E039E800735550 /* MintApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B41FBE3726E039E800735550 /* MintApp */ = {
+			isa = PBXGroup;
+			children = (
+				B41FBE5C26E0EDC200735550 /* Controllers */,
+				B41FBE5726E0DC1400735550 /* Views */,
+				B41FBE5626E0DC0000735550 /* Model */,
+				B41FBE5226E0DB9000735550 /* Extension */,
+				B41FBE3826E039E800735550 /* AppDelegate.swift */,
+				B41FBE3A26E039E800735550 /* SceneDelegate.swift */,
+				B41FBE3C26E039E800735550 /* ViewController.swift */,
+				B41FBE3E26E039E800735550 /* Main.storyboard */,
+				B41FBE4126E039E900735550 /* Assets.xcassets */,
+				B41FBE4326E039E900735550 /* LaunchScreen.storyboard */,
+				B41FBE4626E039E900735550 /* Info.plist */,
+			);
+			path = MintApp;
+			sourceTree = "<group>";
+		};
+		B41FBE5226E0DB9000735550 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B41FBE5326E0DB9B00735550 /* CardView */,
+				B41FBE6326E11DEE00735550 /* NSAttributedString.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B41FBE5326E0DB9B00735550 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				B41FBE5426E0DBAC00735550 /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		B41FBE5626E0DC0000735550 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B41FBE4E26E0C5D400735550 /* CellModel.swift */,
+				B41FBE5826E0ED3A00735550 /* TableViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B41FBE5726E0DC1400735550 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B41FBE4C26E0C3AF00735550 /* Cell.swift */,
+				B41FBE5A26E0ED9900735550 /* TableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B41FBE5C26E0EDC200735550 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B41FBE5026E0C66600735550 /* HomeViewController.swift */,
+				B41FBE5D26E0EDE100735550 /* SettingsViewController.swift */,
+				B41FBE5F26E0FE9900735550 /* SystemController.swift */,
+				B41FBE6126E1153A00735550 /* LegalsViewController.swift */,
+				B41FBE6526E12B8A00735550 /* TabbarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C4958246AA9912FA9497F5EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E21EF83453F262B6C1118D3 /* Pods_MintApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B41FBE3426E039E800735550 /* MintApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B41FBE4926E039E900735550 /* Build configuration list for PBXNativeTarget "MintApp" */;
+			buildPhases = (
+				1E762331D02767EE446F5D50 /* [CP] Check Pods Manifest.lock */,
+				B41FBE3126E039E800735550 /* Sources */,
+				B41FBE3226E039E800735550 /* Frameworks */,
+				B41FBE3326E039E800735550 /* Resources */,
+				4CB436BE066508F93E16039B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MintApp;
+			productName = MintApp;
+			productReference = B41FBE3526E039E800735550 /* MintApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B41FBE2D26E039E800735550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B41FBE3426E039E800735550 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = B41FBE3026E039E800735550 /* Build configuration list for PBXProject "MintApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B41FBE2C26E039E800735550;
+			productRefGroup = B41FBE3626E039E800735550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B41FBE3426E039E800735550 /* MintApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B41FBE3326E039E800735550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41FBE4526E039E900735550 /* LaunchScreen.storyboard in Resources */,
+				B41FBE4226E039E900735550 /* Assets.xcassets in Resources */,
+				B41FBE4026E039E800735550 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E762331D02767EE446F5D50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MintApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CB436BE066508F93E16039B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintApp/Pods-MintApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintApp/Pods-MintApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MintApp/Pods-MintApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B41FBE3126E039E800735550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41FBE6026E0FE9900735550 /* SystemController.swift in Sources */,
+				B41FBE5526E0DBAC00735550 /* CardView.swift in Sources */,
+				B41FBE3D26E039E800735550 /* ViewController.swift in Sources */,
+				B41FBE4D26E0C3AF00735550 /* Cell.swift in Sources */,
+				B41FBE5B26E0ED9900735550 /* TableViewCell.swift in Sources */,
+				B41FBE5926E0ED3A00735550 /* TableViewModel.swift in Sources */,
+				B41FBE3926E039E800735550 /* AppDelegate.swift in Sources */,
+				B41FBE5E26E0EDE100735550 /* SettingsViewController.swift in Sources */,
+				B41FBE6226E1153A00735550 /* LegalsViewController.swift in Sources */,
+				B41FBE4F26E0C5D400735550 /* CellModel.swift in Sources */,
+				B41FBE3B26E039E800735550 /* SceneDelegate.swift in Sources */,
+				B41FBE6426E11DEE00735550 /* NSAttributedString.swift in Sources */,
+				B41FBE5126E0C66600735550 /* HomeViewController.swift in Sources */,
+				B41FBE6626E12B8A00735550 /* TabbarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B41FBE3E26E039E800735550 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B41FBE3F26E039E800735550 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B41FBE4326E039E900735550 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B41FBE4426E039E900735550 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B41FBE4726E039E900735550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B41FBE4826E039E900735550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B41FBE4A26E039E900735550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19161B6AAF409F883FED6737 /* Pods-MintApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MintApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.dennis.MintApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B41FBE4B26E039E900735550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8DCAC6E581E1B0A87F70B0 /* Pods-MintApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MintApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.dennis.MintApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B41FBE3026E039E800735550 /* Build configuration list for PBXProject "MintApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41FBE4726E039E900735550 /* Debug */,
+				B41FBE4826E039E900735550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B41FBE4926E039E900735550 /* Build configuration list for PBXNativeTarget "MintApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41FBE4A26E039E900735550 /* Debug */,
+				B41FBE4B26E039E900735550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B41FBE2D26E039E800735550 /* Project object */;
+}

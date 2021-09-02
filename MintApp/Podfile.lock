@@ -1,0 +1,16 @@
+PODS:
+  - SSCustomTabbar (2.0.6)
+
+DEPENDENCIES:
+  - SSCustomTabbar
+
+SPEC REPOS:
+  trunk:
+    - SSCustomTabbar
+
+SPEC CHECKSUMS:
+  SSCustomTabbar: a52533e429bd40f52ce8d7ecb801f3521fbd56a0
+
+PODFILE CHECKSUM: 02ad3e787941b2fef2bf885182fad61f69a306ee
+
+COCOAPODS: 1.10.1
